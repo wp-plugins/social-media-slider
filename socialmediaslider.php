@@ -59,7 +59,7 @@ class Social_Media_Slider {
 	</style>
 	<?php
 	$smallAds = get_option("smallAdOptions");
-	$imagepath = get_bloginfo('url').'/wp-content/plugins/socialmediaslider/images/';
+	$imagepath = get_bloginfo('url').'/wp-content/plugins/social-media-slider/images/';
 	$count = 0; //foreach ($smallAds as $smallAd) { if ($smallAd != '') {$count++;} }
 	if ($smallAds['twitter'] != ''){$count++;}
 	if ($smallAds['rss'] != ''){$count++;}
